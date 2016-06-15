@@ -1,0 +1,9 @@
+<div ng-controller="HomeCtrl">
+    <button ng-click="myFacebookLogin()">Login with Facebook</button>
+    <p>{{getMyLastName()}}</p>
+    <p>Balance: {{bitcoins}} BTC</p>
+    <P>AUD: ${{aud}}</P>
+    <p>Transfer: <input type="text" ng-bind="amount"></p>
+    <p>To Address: <input type="text" ng-bind="to"></p>
+    <a href="#transfer">Transfer</a>
+</div>
